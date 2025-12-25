@@ -1,5 +1,5 @@
-from fastapi import FastAPI
 from api.posts.routes import router as posts_router
+from fastapi import FastAPI
 
 app = FastAPI(title="NuxtExpert API")
 

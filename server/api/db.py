@@ -1,6 +1,7 @@
+import os
+
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker
-import os
 
 DATABASE_URL = os.getenv("MYSQL_URL", "mysql+asyncmy://root:root@localhost:3306/nuxtexpert")
 

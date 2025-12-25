@@ -9,6 +9,12 @@
   </v-card>
 </template>
 
-<script setup>
-defineProps<{ post: { title: string, excerpt: string } }>()
+<script setup lang="ts">
+interface Post {
+  id: number
+  title: string
+  excerpt: string
+}
+
+defineProps<{ post: Post }>()
 </script>

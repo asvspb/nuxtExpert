@@ -27,6 +27,7 @@
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "@nuxt/content": "^3.10.0",
+    "better-sqlite3": "^12.5.0",
     "vuetify": "^3.11.5"
   }
 }
