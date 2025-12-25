@@ -1,0 +1,19 @@
+.b-postcard {
+  padding: $space-s;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  &_theme_dark {
+    background: #121212;
+    color: white;
+  }
+
+  &__title {
+    &_size_l {
+      font-size: 1.5rem;
+    }
+
+    margin-bottom: $space-xs;
+    font-weight: 600;
+  }
+}
